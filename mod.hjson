@@ -1,0 +1,9 @@
+name: Salvage Era
+description: Adds a unique campaign on the distant rogue planet, Archaiesis.
+subtitle: Success is not final, failure is not fatal.
+
+author: Chax0180
+minGameVersion: 136
+version: 0.0
+hidden: false
+hideBrowser: false
