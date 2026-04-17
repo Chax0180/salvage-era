@@ -1,0 +1,6 @@
+name: Shredded Parts
+description: A mass of mixed electronic and structural components. Can be broken down into constituent parts.
+hardness: 2
+research: core-requiem
+color: 545873
+shownPlanets: [archaiesis]
