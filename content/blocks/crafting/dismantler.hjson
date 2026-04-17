@@ -1,0 +1,52 @@
+name: Dismantler
+type: separator
+description: Breaks up shredded machine parts into finer peices which can be further processed into pure resources.
+size: 3
+scaledHealth: 40
+squareSprite: true
+results:[
+armor-alloy/0.4
+twisted-wires/0.3
+circuit-board/0.3
+]
+//armor-alloy, silver, silicon
+consumes: {
+  items: [
+    shredded-parts/3
+  ]
+}
+
+craftTime: 60
+category: crafting
+research: wreckage-breaker
+
+requirements: [
+  silicon/40
+  silver/10
+  armor-alloy/40
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 5
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    } 
+  ]
+}
+ambientSound: loopCutter
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.2
