@@ -1,0 +1,5 @@
+name: Armor Alloy
+description: A tough, moderately heavy metal alloy. Used as a structural component and to build the hull of units.
+research: shredded-parts
+color: 73789a
+shownPlanets: [archaiesis]
