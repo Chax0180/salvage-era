@@ -1,0 +1,30 @@
+type: legs
+name: Magistrate
+description: Fires a large laser beam at enemy targets. Equipped with two supplementary point-defense turrets.
+speed: 1.4
+accel: 0.015
+drag: 0.04
+rotateSpeed: 1.6
+flying: false
+
+health: 9000
+armor: 22
+stepShake: 1.2
+stepSound: walkerStep
+hitSize: 26
+drownTimeMultiplier: 5
+
+legCount: 6
+legLength: 40
+legBaseOffset: 20
+legMoveSpace: 1.4
+legForwardScl: 0.5
+shadowElevation: 0.7
+legSpeed: 0.08
+legSplashDamage: 10
+legSplashRange: 5
+legContinuousMove: false
+legGroupSize: 2
+
+weapons: [
+]
