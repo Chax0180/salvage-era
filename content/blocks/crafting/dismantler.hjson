@@ -1,13 +1,13 @@
 name: Dismantler
 type: separator
-description: Breaks up shredded machine parts into finer peices which can be further processed into pure resources.
+description: Breaks up shredded parts into finer peices which can be further processed into pure resources.
 size: 3
 scaledHealth: 40
 squareSprite: true
 results:[
-armor-alloy/0.4
-twisted-wires/0.3
-circuit-board/0.3
+armor-alloy/4
+twisted-wires/3
+circuit-board/3
 ]
 //armor-alloy, silver, silicon
 consumes: {
