@@ -1,0 +1,18 @@
+type: CoreBlock
+name: Core: Salvage
+description: Core of the base. Lightly armored. Stores a small amount of items. Once destroyed, the sector is lost.
+requirements: [
+  silver/800
+  silicon/1000
+  armor-alloy/1500
+]
+armor: 4
+isFirstTier: true
+size: 4
+squareSprite: false
+alwaysUnlocked: true
+unitType: poly
+health: 3200
+itemCapacity: 3500
+unitCapModifier: 8
+category: effect
