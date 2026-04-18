@@ -5,4 +5,3 @@ shredded-parts: 1.5
 }
 variants: 2
 rotationRand: 180
-shadowOffset: -7
