@@ -1,7 +1,6 @@
-type: Block
+type: StaticWall
 name: Magistrate Wreck
 shadowOffset: -1.25
-size: 3
 attributes:{
 shredded-parts: 1.5
 }
