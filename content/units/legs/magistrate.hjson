@@ -21,17 +21,17 @@ stepSound: walkerStep
 hitSize: 26
 drownTimeMultiplier: 5
 
-legCount: 6
-legLength: 140
-legBaseOffset: 20
-legMoveSpace: 1.4
-legForwardScl: 0.5
+legCount: 4
+legLength: 120
+legBaseOffset: 40
+legMoveSpace: 2
+legForwardScl: 1.6
 shadowElevation: 0.7
 legSpeed: 0.08
 legSplashDamage: 10
 legSplashRange: 5
 legContinuousMove: false
-legGroupSize: 2
+legGroupSize: 1
 
 weapons: [
 ]
