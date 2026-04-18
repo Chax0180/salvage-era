@@ -29,22 +29,34 @@ drawer: {
   type: DrawMulti
   drawers: [
     {
-      type: DrawRegion
-      suffix: -bottom
-    }
-    {
       type: DrawDefault
     }
     {
+      type: DrawPistons
+      suffix: -piston
+      sinMag: 2
+      sinScl: 6
+    }
+    {
       type: DrawRegion
-      suffix: -rotator
+      suffix: -basin
+    }
+    {
+      type: DrawRegion
+      suffix: -grinder0
       spinSprite: true
-      rotateSpeed: 5
+      rotateSpeed: 2
+    }
+    {
+      type: DrawRegion
+      suffix: -grinder1
+      spinSprite: true
+      rotateSpeed: -2
     }
     {
       type: DrawRegion
       suffix: -top
-    } 
+    }
   ]
 }
 ambientSound: loopCutter
