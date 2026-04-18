@@ -6,7 +6,7 @@ mesh: [
     planet: archaiesis
     divisions: 6
     seed: 6
-    radius: 3
+    radius: 0.8
     color1: 31354a
     color2: 23273b
     octaves: 4
@@ -16,7 +16,7 @@ mesh: [
    type: HexSkyMesh
    planet: archaiesis
    speed: 0.891
-   radius: 0.091
+   radius: 0.1
    divisions: 6
    color: eafffd7e
    octaves: 3
