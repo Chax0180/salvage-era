@@ -1,3 +1,5 @@
+localizedName: Archaiesis
+description: A distant, frozen planet.
 alwaysUnlocked: true
 mesh: [
  {
@@ -37,7 +39,6 @@ mesh: [
    thresh: 0.6
   }
 ]
-orbitRadius: 0
 sectorSize: 1
 allowLaunchSchematics: true
 allowLaunchToNumbered: false
@@ -46,11 +47,9 @@ allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 1
 radius: 0.9
-minZoom: 0.25
+minZoom: 1
 drawOrbit: true
 orbitRadius: 140
-atmosphereRadIn: 0.3
-atmosphereRadOut: 0.5
 accessible: true
 updateLighting: false
 sectorSeed: 218
@@ -59,6 +58,9 @@ visible: true
 atmosphereColor: 464a61
 iconColor: 464a61
 hasAtmosphere: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.4
+
 allowWaveSimulation: true
 clearSectorOnLose: false
 allowWaves: true
