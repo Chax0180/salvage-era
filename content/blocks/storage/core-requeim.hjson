@@ -1,5 +1,5 @@
 type: CoreBlock
-name: Core: Salvage
+name: Core: Requeim
 description: Core of the base. Lightly armored. Stores a small amount of items. Once destroyed, the sector is lost.
 requirements: [
   silver/800
