@@ -3,16 +3,28 @@ description: A distant, frozen planet.
 alwaysUnlocked: true
 mesh: [
  {
-    //metal
+    //silicates
     type: NoiseMesh
     planet: archaiesis
     divisions: 4
     seed: 6
     radius: 0.8
-    color1: 31354a
-    color2: 23273b
+    color1: 8e9097
+    color2: 767a84
     octaves: 4
     persistence: 1.25
+  }
+ {
+    //ice
+    type: NoiseMesh
+    planet: archaiesis
+    divisions: 5
+    seed: 8
+    radius: 0.8
+    color1: c0d6fa
+    color2: edf4ff
+    octaves: 5
+    persistence: 1
   }
   {
    type: HexSkyMesh
