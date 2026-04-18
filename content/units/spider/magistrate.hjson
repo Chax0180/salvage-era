@@ -16,8 +16,11 @@ flying: false
 
 health: 6800
 armor: 16
+
 stepShake: 1.2
 stepSound: mechStepHeavy
+stepSoundPitch: 0.8
+
 hitSize: 26
 drownTimeMultiplier: 5
 
