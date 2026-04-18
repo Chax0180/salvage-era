@@ -27,7 +27,7 @@ drownTimeMultiplier: 5
 legCount: 6
 legLength: 45
 legBaseOffset: 10
-legExtension: -15
+legExtension: -5
 legMoveSpace: 1.28
 legForwardScl: 0
 shadowElevation: 0.5
