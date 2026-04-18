@@ -85,11 +85,12 @@ firstShotDelay: 60
       chargeEffect: {
     type: ParticleEffect
     particles: 4
-    lifetime: 15
+    lifetime: 60
     sizeFrom: 0
     sizeTo: 6
     cone: 180
-    length: 20
+    length: -45
+    baseLength: 45
     interp: circleOut
     colorFrom: 872929
     colorTo: ea8878
