@@ -5,3 +5,4 @@ size: 3
 attributes:{
 shredded-parts: 1.5
 }
+customShadow: true
