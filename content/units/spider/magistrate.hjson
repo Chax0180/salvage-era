@@ -11,7 +11,7 @@ outlineColor: 2f2d39
 speed: 1.4
 accel: 0.015
 drag: 0.04
-rotateSpeed: 15
+rotateSpeed: 0.3
 flying: false
 
 health: 6800
@@ -22,8 +22,8 @@ hitSize: 26
 drownTimeMultiplier: 5
 
 legCount: 4
-legLength: 120
-legBaseOffset: 40
+legLength: 60
+legBaseOffset: 10
 legMoveSpace: 2
 legForwardScl: 1.6
 shadowElevation: 0.7
