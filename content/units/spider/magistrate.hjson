@@ -44,7 +44,7 @@ weapons: [
     top: false
     heatColor: bc5452
     shake: 6
-    shootY: 16
+    shootY: 14
     x: 0
     y: 0
 
