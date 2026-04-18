@@ -1,0 +1,5 @@
+name: Magistrate Ore
+//Serves as an extractor port for Magistrate Wrecks.
+attributes:{
+shredded-parts/1.5
+}
