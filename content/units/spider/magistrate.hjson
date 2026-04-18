@@ -57,7 +57,8 @@ weapons: [
 
     bullet: {
       type: ContinuousFlameBulletType
-      damage: 
+      damage: 60
+      hitInterval: 10
       width: 6
       length: 110
       drawFlare: false
