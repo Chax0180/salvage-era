@@ -49,7 +49,7 @@ allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 1
 radius: 1.2
-minZoom: 1
+minZoom: 0.25
 drawOrbit: false
 atmosphereRadIn: 0.3
 atmosphereRadOut: 0.5
@@ -65,8 +65,8 @@ allowWaveSimulation: true
 clearSectorOnLose: false
 allowWaves: true
 prebuildBase: false
-defaultCore: core-salvage
-solarSystem: archaiesis
+defaultCore: core-requeim
+solarSystem: Archaiesis
 itemWhitelist: [
   shredded-parts, twisted-wires, circuit, silver, silicon, armor-alloy
 ]
