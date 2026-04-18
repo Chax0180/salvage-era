@@ -62,9 +62,9 @@ firstShotDelay: 60
       type: ContinuousLaserBulletType
       damage: 60
       hitInterval: 10
-      width: 6
-      length: 150
-      drawSize: 150
+      width: 8
+      length: 200
+      drawSize: 200
       lifetime: 120
       shake: 1
       despawnEffect: smokeCloud
