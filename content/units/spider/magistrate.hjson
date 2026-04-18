@@ -64,7 +64,18 @@ weapons: [
       drawSize: 200
       lifetime: 120
       shake: 1
-      despawnEffect: smokeEffect
+      despawnEffect:{
+    type: ParticleEffect
+    particles: 10
+    lifetime: 120
+    sizeFrom: 6
+    sizeTo: 0
+    cone: 45
+    length: 60
+    colorFrom: ea8878
+    colorTo: 872929
+    sizeInterp: smooth
+  }
       smokeEffect: {
     type: ParticleEffect
     particles: 20
