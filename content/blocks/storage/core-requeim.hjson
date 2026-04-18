@@ -16,3 +16,10 @@ health: 3200
 itemCapacity: 3500
 unitCapModifier: 8
 category: effect
+
+research: {
+  planet: archaiesis
+  root: true
+  name: Archaiesis
+  requiresUnlock: false
+}
