@@ -7,7 +7,7 @@ squareSprite: true
 results:[
 armor-alloy/4
 twisted-wires/3
-circuit-board/3
+broken-circuit/3
 ]
 //armor-alloy, silver, silicon
 consumes: {
