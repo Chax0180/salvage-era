@@ -24,22 +24,19 @@ mesh: [
    scl: 1.1
    thresh: 0.6
   }
+  {
+   type: HexSkyMesh
+   planet: archaiesis
+   speed: 0.6
+   radius: 0.024
+   divisions: 6
+   color: eafffd7e
+   octaves: 3
+   persistence: 0.5
+   scl: 1.1
+   thresh: 0.6
+  }
 ]
-generator: {
-  octaves: 3
-  persistence: 0.52
-  scale: 22
-  mag: 0.721
-  thresh: 1.152
-  min: 100
-  max: 100
-  radMin: 220
-  radMax: 600
-  iceChance: 0.51
-  carbonChance: 0.32
-  berylChance: 0
-  ferricChance: 0.26
-}
 orbitRadius: 0
 sectorSize: 1
 allowLaunchSchematics: true
@@ -48,7 +45,7 @@ allowLaunchLoadout: true
 allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 1
-radius: 1.2
+radius: 0.9
 minZoom: 0.25
 drawOrbit: true
 orbitRadius: 140
