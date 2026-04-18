@@ -48,16 +48,16 @@ weapons: [
     x: 0
     y: 0
 
-    reload: 180
+    reload: 300
     recoil: 0
     shootSound: beamMagistrate
     chargeSound: shootBeamPlasma
     continuous: true
-    cooldownTime: 180
+    cooldownTime: 300
 
     bullet: {
       type: ContinuousFlameBulletType
-      damage: 18
+      damage: 
       width: 6
       length: 110
       drawFlare: false
@@ -66,9 +66,29 @@ weapons: [
       lifetime: 220
       shake: 1
       despawnEffect: smokeCloud
-      smokeEffect: none
+      smokeEffect: {
+    type: ParticleEffect
+    particles: 2
+    lifetime: 30
+    sizeFrom: 6
+    sizeTo: 0
+    cone: 5
+    length: 45
+    colorFrom: ea8878
+    colorTo: 6e7080
+  }
 
-      chargeEffect: greenLaserChargeSmall
+      chargeEffect: {
+    type: ParticleEffect
+    particles: 4
+    lifetime: 15
+    sizeFrom: 0
+    sizeTo: 6
+    cone: 180
+    length: 20
+    colorFrom: 872929
+    colorTo: ea8878
+  }
 
       incendChance: 0.1
       incendSpread: 5
