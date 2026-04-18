@@ -45,9 +45,9 @@ weapons: [
     heatColor: bc5452
     shake: 6
     shootY: 14
-    shoot:[
+    shoot:{
     firstShotDelay: 60
-    ]
+    }
     x: 0
     y: 0
 
