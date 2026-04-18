@@ -9,7 +9,7 @@ requirements: [
   silicon/10
 ]
 drillTime: 180
-output: shredded-parts/1
+output: shredded-parts
 attribute: shredded-parts
 ambientSound: loopDrill
 ambientSoundVolume: 0.08
