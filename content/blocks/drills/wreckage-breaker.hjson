@@ -1,0 +1,17 @@
+type: WallCrafter
+name: Wreckage Breaker
+description: Breaks up wreckages into shredded parts. 
+size: 2
+category: production
+research: core-requeim
+requirements: [
+  silver/20
+  silicon/10
+]
+drillTime: 180
+output: shredded-parts/1
+attribute: shredded-parts
+ambientSound: loopDrill
+ambientSoundVolume: 0.08
+alwaysUnlocked: true
+squareSprite: false
