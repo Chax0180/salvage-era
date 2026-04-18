@@ -39,19 +39,19 @@ legGroupSize: 2
 
 weapons: [
   {
-    name: magistrate-beam
+    name: magistrate-main
     mirror: false
     top: false
     heatColor: b58aff
     shake: 6
-    shootY: 22
+    shootY: 18
     x: 0
     y: 0
 
     reload: 60
     recoil: 0
-    shootSound: luminarychargeloop
-    chargeSound: luminarychargefire
+    shootSound: beamMagistrate
+    chargeSound: shootBeamPlasma
     continuous: true
     cooldownTime: 400
 
