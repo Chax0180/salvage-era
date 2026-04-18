@@ -19,7 +19,7 @@ armor: 16
 
 stepShake: 1.2
 stepSound: mechStepHeavy
-stepSoundPitch: 0.8
+stepSoundPitch: 0.4
 
 hitSize: 26
 drownTimeMultiplier: 5
