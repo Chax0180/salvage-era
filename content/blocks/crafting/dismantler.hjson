@@ -1,7 +1,7 @@
 name: Dismantler
 type: separator
 description: Breaks up shredded parts into finer peices which can be further processed into pure resources.
-size: 3
+size: 4
 scaledHealth: 40
 squareSprite: true
 results:[
@@ -16,7 +16,7 @@ consumes: {
   ]
 }
 
-craftTime: 60
+craftTime: 30
 category: crafting
 research: wreckage-breaker
 
