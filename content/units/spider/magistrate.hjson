@@ -79,6 +79,6 @@ weapons: [
       ]
     }
 
-    shootStatus: melting
+    shootStatus: slow
   }
 ]
