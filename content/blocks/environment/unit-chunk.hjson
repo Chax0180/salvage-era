@@ -1,0 +1,7 @@
+type: TallBlock
+name: Unit Chunk
+attributes:{
+shredded-parts: 0.8
+}
+variants: 3
+rotationRand: 180
