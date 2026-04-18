@@ -64,20 +64,7 @@ weapons: [
       drawSize: 200
       lifetime: 120
       shake: 1
-      despawnEffect:{
-    type: ParticleEffect
-    particles: 10
-    lifetime: 60
-    sizeFrom: 6
-    sizeTo: 0
-    cone: 180
-    length: -45
-    baseLength: 45
-    interp: circleOut
-    colorFrom: 872929
-    colorTo: ea8878
-    sizeInterp: reverse
-  }
+      despawnEffect: smokeEffect
       smokeEffect: {
     type: ParticleEffect
     particles: 20
@@ -90,8 +77,21 @@ weapons: [
     colorTo: 872929
     sizeInterp: smooth
   }
-
-      chargeEffect: none
+      chargeEffect: {
+    type: ParticleEffect
+    particles: 10
+    lifetime: 60
+    sizeFrom: 6
+    sizeTo: 0
+    cone: 180
+    length: -45
+    baseLength: 45
+    interp: circleOut
+    colorFrom: 872929
+    colorTo: ea8878
+    sizeInterp: reverse
+    followParent: true
+  }
 
       incendChance: 0.1
       incendSpread: 5
