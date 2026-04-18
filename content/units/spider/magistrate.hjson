@@ -31,7 +31,7 @@ legSpeed: 0.08
 legSplashDamage: 15
 legSplashRange: 5
 legContinuousMove: false
-legGroupSize: 1
+legGroupSize: 2
 
 weapons: [
 ]
