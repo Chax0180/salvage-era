@@ -56,7 +56,7 @@ weapons: [
     cooldownTime: 180
 
     bullet: {
-      type: ContinuousLaserBulletType
+      type: ContinuousFlameBulletType
       damage: 25
       length: 240
       drawSize: 420
