@@ -1,7 +1,7 @@
 type: TallBlock
 name: Magistrate Wreck
 attributes:{
-shredded-parts: 1.5
+shredded-parts: 2
 }
 variants: 2
 rotationRand: 180
