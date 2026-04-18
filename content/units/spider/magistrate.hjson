@@ -42,18 +42,18 @@ weapons: [
     name: magistrate-main
     mirror: false
     top: false
-    heatColor: b58aff
+    heatColor: bc5452
     shake: 6
-    shootY: 18
+    shootY: 16
     x: 0
     y: 0
 
-    reload: 60
+    reload: 180
     recoil: 0
     shootSound: beamMagistrate
     chargeSound: shootBeamPlasma
     continuous: true
-    cooldownTime: 400
+    cooldownTime: 180
 
     bullet: {
       type: ContinuousLaserBulletType
