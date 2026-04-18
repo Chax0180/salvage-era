@@ -17,7 +17,7 @@ consumes: {
   ]
 }
 
-craftTime: 30
+craftTime: 20
 category: crafting
 research: wreckage-breaker
 
