@@ -1,3 +1,5 @@
 type: StaticWall
-name: Magistrate Wreck
 size: 4
+attributes: {
+shredded-parts: 1.6
+}
