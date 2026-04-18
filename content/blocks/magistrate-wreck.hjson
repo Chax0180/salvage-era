@@ -1,6 +1,5 @@
-type: TreeBlock
+type: StaticWall
 name: Magistrate Wreck
-shadowOffset: -1
 size: 4
 attributes: {
   shredded-parts/1.5
