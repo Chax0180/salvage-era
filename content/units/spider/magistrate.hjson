@@ -61,7 +61,7 @@ weapons: [
       width: 6
       length: 240
       drawFlare: false
-      lengthInterp: expOut
+      lengthInterp: circleOut
       drawSize: 420
       lifetime: 220
       shake: 1
