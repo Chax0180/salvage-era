@@ -25,7 +25,7 @@ legCount: 6
 legLength: 45
 legBaseOffset: 10
 legMoveSpace: 1.28
-legForwardScl: 0.5
+legForwardScl: 0
 shadowElevation: 0.5
 legSpeed: 0.08
 legSplashDamage: 15
