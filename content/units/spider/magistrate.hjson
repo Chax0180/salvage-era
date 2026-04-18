@@ -11,24 +11,24 @@ outlineColor: 2f2d39
 speed: 1.4
 accel: 0.015
 drag: 0.04
-rotateSpeed: 0.3
+rotateSpeed: 1.1
 flying: false
 
 health: 6800
 armor: 16
 stepShake: 1.2
-stepSound: walkerStep
+stepSound: mechStepHeavy
 hitSize: 26
 drownTimeMultiplier: 5
 
 legCount: 4
-legLength: 60
+legLength: 45
 legBaseOffset: 10
-legMoveSpace: 2
-legForwardScl: 1.6
-shadowElevation: 0.7
+legMoveSpace: 1.28
+legForwardScl: 0.5
+shadowElevation: 0.5
 legSpeed: 0.08
-legSplashDamage: 10
+legSplashDamage: 15
 legSplashRange: 5
 legContinuousMove: false
 legGroupSize: 1
