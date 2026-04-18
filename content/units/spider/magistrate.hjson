@@ -72,9 +72,9 @@ weapons: [
       incendAmount: 1
 
       colors: [
-        b58aff
-        b58aff
-        6b3aba
+        872929
+        bc5452
+        ea8878
         ffffff
       ]
     }
