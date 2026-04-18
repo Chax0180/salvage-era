@@ -21,7 +21,7 @@ stepSound: mechStepHeavy
 hitSize: 26
 drownTimeMultiplier: 5
 
-legCount: 4
+legCount: 6
 legLength: 45
 legBaseOffset: 10
 legMoveSpace: 1.28
