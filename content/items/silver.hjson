@@ -2,5 +2,5 @@ name: Silver
 description: A soft, conductive, lustrous metal. Used in electronics.
 hardness: 1
 research: core-requiem
-color: c9c9c9
+color: 8981a6
 shownPlanets: [archaiesis]
