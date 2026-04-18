@@ -4,6 +4,7 @@ description: Breaks up shredded parts into finer peices which can be further pro
 size: 4
 scaledHealth: 40
 squareSprite: true
+hasLiquids: false
 results:[
 armor-alloy/4
 twisted-wires/3
@@ -12,7 +13,7 @@ broken-circuit/3
 //armor-alloy, silver, silicon
 consumes: {
   items: [
-    shredded-parts/3
+    shredded-parts/1
   ]
 }
 
