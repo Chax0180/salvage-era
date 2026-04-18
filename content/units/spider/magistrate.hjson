@@ -80,6 +80,7 @@ firstShotDelay: 60
     length: -45
     colorFrom: ea8878
     colorTo: 6e7080
+    sizeInterp: smooth
   }
 
       chargeEffect: {
