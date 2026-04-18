@@ -50,7 +50,8 @@ startSector: 0
 orbitSpacing: 1
 radius: 1.2
 minZoom: 0.25
-drawOrbit: false
+drawOrbit: true
+orbitRadius: 140
 atmosphereRadIn: 0.3
 atmosphereRadOut: 0.5
 accessible: true
@@ -66,7 +67,7 @@ clearSectorOnLose: false
 allowWaves: true
 prebuildBase: false
 defaultCore: core-requeim
-solarSystem: archaiesis
+parent: sun
 itemWhitelist: [
   shredded-parts, twisted-wires, circuit, silver, silicon, armor-alloy
 ]
