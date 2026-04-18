@@ -54,6 +54,9 @@ weapons: [
     chargeSound: shootBeamPlasma
     continuous: true
     cooldownTime: 300
+shoot:{
+firstShotDelay: 60
+}
 
     bullet: {
       type: ContinuousFlameBulletType
@@ -69,11 +72,11 @@ weapons: [
       despawnEffect: smokeCloud
       smokeEffect: {
     type: ParticleEffect
-    particles: 8
+    particles: 20
     lifetime: 120
     sizeFrom: 6
     sizeTo: 0
-    cone: 10
+    cone: 135
     length: -45
     colorFrom: ea8878
     colorTo: 6e7080
