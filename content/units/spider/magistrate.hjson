@@ -69,8 +69,8 @@ weapons: [
       despawnEffect: smokeCloud
       smokeEffect: {
     type: ParticleEffect
-    particles: 10
-    lifetime: 30
+    particles: 8
+    lifetime: 120
     sizeFrom: 6
     sizeTo: 0
     cone: 10
