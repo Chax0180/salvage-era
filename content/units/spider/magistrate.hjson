@@ -58,7 +58,10 @@ weapons: [
     bullet: {
       type: ContinuousFlameBulletType
       damage: 25
+      width: 6
       length: 240
+      drawFlare: false
+      lengthInterp: expOut
       drawSize: 420
       lifetime: 220
       shake: 1
