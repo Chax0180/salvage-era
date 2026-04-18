@@ -1,5 +1,5 @@
 name: Broken Circuit
-description: An integrated circuit that has been damaged, and no longer functions.
+description: An integrated circuit that has been damaged, and no longer functions. Can be melted down into silicon.
 research: shredded-parts
 color: 2c2c3d
 shownPlanets: [archaiesis]
