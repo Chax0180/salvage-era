@@ -1,8 +1,7 @@
-type: TreeBlock
+type: TallBlock
 name: Magistrate Wreck
-shadowOffset: 3
 attributes:{
 shredded-parts: 1.5
 }
-customShadow: true
 variants: 2
+rotationRand: 180
