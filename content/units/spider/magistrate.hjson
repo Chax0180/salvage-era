@@ -1,6 +1,6 @@
 type: legs
 name: Magistrate
-description: Fires a large laser beam at enemy targets. Equipped with two supplementary point-defense turrets. Heavily armored.
+description: Fires a large laser beam at enemy targets. Heavily armored.
 
 details: "In the scrapyards, Magistrates serve two purposes; security and waste processing.
 Their signature laser cutter can melt down scrap, and incinerate any scavengers that happened to make themselves known within
@@ -38,4 +38,47 @@ legContinuousMove: false
 legGroupSize: 2
 
 weapons: [
+  {
+    name: magistrate-beam
+    mirror: false
+    top: false
+    heatColor: b58aff
+    shake: 6
+    shootY: 22
+    x: 0
+    y: 0
+
+    reload: 60
+    recoil: 0
+    shootSound: luminarychargeloop
+    chargeSound: luminarychargefire
+    continuous: true
+    cooldownTime: 400
+
+    bullet: {
+      type: ContinuousLaserBulletType
+      damage: 25
+      length: 240
+      drawSize: 420
+      lifetime: 220
+      shake: 1
+      despawnEffect: smokeCloud
+      smokeEffect: none
+
+      chargeEffect: greenLaserChargeSmall
+
+      incendChance: 0.1
+      incendSpread: 5
+      incendAmount: 1
+
+      colors: [
+        b58aff
+        b58aff
+        6b3aba
+        ffffff
+      ]
+    }
+
+    shootStatus: melting
+  }
 ]
