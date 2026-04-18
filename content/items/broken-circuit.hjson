@@ -1,0 +1,5 @@
+name: Broken Circuit
+description: An integrated circuit that has been damaged, and no longer functions.
+research: shredded-parts
+color: 5d916a
+shownPlanets: [archaiesis]
