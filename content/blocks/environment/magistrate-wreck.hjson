@@ -5,3 +5,6 @@ shredded-parts: 3.5
 }
 variants: 2
 rotationRand: 180
+
+itemDrop: magistrate-processing-matrix
+playerUnmineable: true
