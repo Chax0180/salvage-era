@@ -1,3 +1,5 @@
 type: beamDrill
 name: Precision Extractor
 description: Utilises a precise laser to carefully search for and extract useful components from wrecked machines.
+size: 1
+health: 110
