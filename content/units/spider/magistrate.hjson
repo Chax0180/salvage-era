@@ -46,7 +46,7 @@ weapons: [
     shake: 6
     shootY: 14
     shoot:{
-    firstShotDelay: 60
+    firstShotDelay: 0
     }
     x: 0
     y: 0
@@ -54,7 +54,7 @@ weapons: [
     reload: 300
     recoil: 0
     shootSound: beamMagistrate
-    chargeSound: none
+    chargeSound: shootBeamPlasma
     continuous: true
     cooldownTime: 300
 
