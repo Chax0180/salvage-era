@@ -1,0 +1,53 @@
+type: mech
+name: "Fusilier"
+description: An armored walker equipped with two autocannons which fire explosive rounds at enemy targets.
+speed: 0.35
+flying: false
+health: 1250
+armor: 10
+hitSize: 11
+loopSound: loopMachine2
+loopSoundVolume: 0.03
+  weapons: [
+    {    
+      x: 10
+        y: -2
+        name: autocannon-mount
+        reload: 20.58
+        recoil: 0.2
+        mirror: true
+        alternate: true
+        inaccuracy: 1
+        rotate: true
+        rotationLimit: 30
+        shootSound: shootAlt
+        bullet: {
+          type: BasicBulletType
+            speed: 10
+            lifetime: 30
+            damage: 50
+      pierceArmor: true
+      trailChance: -1
+      trailLength: 10
+      trailWidth: 1
+      width: 7
+      height: 9
+            splashDamageRadius: 20
+            splashDamage: 30
+            trailChance: -1
+            hitEffect: flakExplosion
+      hitSound: largeExplosion
+        }
+  parts: [
+    {
+      type: RegionPart
+      y: 4.3
+      suffix: -barrel
+      mirror: false
+      under: true
+      progress: recoil
+      moveY: -1.5
+    }
+  ]
+    }
+]
