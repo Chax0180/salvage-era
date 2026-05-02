@@ -20,7 +20,7 @@ loopSoundVolume: 0.03
         inaccuracy: 1
         rotate: true
         rotationLimit: 30
-        shootSound: shootAlt
+        shootSound: shootSalvo
         bullet: {
           type: BasicBulletType
             speed: 10
@@ -36,7 +36,7 @@ loopSoundVolume: 0.03
             splashDamage: 30
             trailChance: -1
             hitEffect: flakExplosion
-      hitSound: largeExplosion
+      hitSound: shootCyclone
         }
   parts: [
     {
