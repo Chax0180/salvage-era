@@ -56,7 +56,7 @@ loopSoundVolume: 0.03
     type: waveEffect
     lifetime: 20
     sizeFrom: 0
-    sizeTo: 60
+    sizeTo: 10
     colorFrom: ffffff
     colorTo: 84f491
     interp: circleOut
