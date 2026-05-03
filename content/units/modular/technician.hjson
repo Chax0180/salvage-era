@@ -1,11 +1,11 @@
 type: mech
 name: Technician
-description: An armored walker equipped with a light laser cannon and an volatile energy launcher.
+description: A lightly armored walker equipped with a light laser cannon and an volatile energy launcher.
 speed: 0.35
 flying: false
-health: 2900
+health: 800
 rotateSpeed: 2.2
-armor: 9
+armor: 4
 hitSize: 11
 loopSound: loopMachine2
 loopSoundVolume: 0.03
