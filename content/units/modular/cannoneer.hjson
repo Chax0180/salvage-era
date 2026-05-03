@@ -4,6 +4,7 @@ description: A heavily armored walker equipped with a single, large cannon that 
 speed: 0.25
 flying: false
 health: 3250
+rotateSpeed: 0.075
 armor: 11
 hitSize: 11
 loopSound: loopMachine2
