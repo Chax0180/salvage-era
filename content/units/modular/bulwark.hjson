@@ -15,7 +15,7 @@ outlineColor: 2f2d39
     {    
       x: 8.7
         y: 2
-        name: thermite-mount
+        name: thermite-shotgun
         reload: 40
         recoil: 0.2
         mirror: false
