@@ -4,6 +4,7 @@ description: An armored walker equipped with a light laser cannon and an volatil
 speed: 0.35
 flying: false
 health: 2900
+rotateSpeed: 0.22
 armor: 9
 hitSize: 11
 loopSound: loopMachine2
