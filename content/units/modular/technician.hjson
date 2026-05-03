@@ -75,8 +75,8 @@ loopSoundVolume: 0.03
     length: 21
     colorFrom: ffffff
     colorTo: 84f491
-    sizeInterp: exp
-    interp: expOut
+    sizeInterp: circle
+    interp: circleOut
     }
       type: BasicBulletType
       sprite: large-orb
