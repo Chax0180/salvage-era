@@ -68,9 +68,9 @@ abilities: [
     max: 650
     cooldown: 300
     regen: 0.3
-    angle: 361
+    angle: 20
     whenShooting: false
     width: 18
-    radius: 60
+    radius: 45
   }
 ]
