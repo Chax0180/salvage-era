@@ -22,6 +22,7 @@ mechLegColor: 2f2d39
         mirror: false
         top: false
         shoot:{
+        type: shootAlternate
         barrels: 6
         spread: 3
         shotDelay: 5
