@@ -39,16 +39,6 @@ outlineColor: 2f2d39
             hitEffect: blastExplosion
       hitSound: explosion
         }
-  parts: [
-    {
-      type: RegionPart
-      y: 4.3
-      suffix: -barrel
-      mirror: false
-      under: true
-      progress: recoil
-      moveY: -3
-    }
   ]
     }
 ]
