@@ -13,12 +13,13 @@ outlineColor: 2f2d39
 
   weapons: [
     {    
-      x: 10
-        y: -2
+      x: 8.7
+        y: 2
         name: thermite-mount
         reload: 40
         recoil: 0.2
         mirror: false
+        under: true
         inaccuracy: 7.5
         rotate: true
         rotationLimit: 30
