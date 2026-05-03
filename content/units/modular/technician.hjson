@@ -52,8 +52,7 @@ loopSoundVolume: 0.03
         chargeSound: chargeVela
     bullet: {
       shootEffect: healWave
-      hitEffect: [
-      hitSquaresColor
+      hitEffect:
     {
     type: ParticleEffect
     particles: 20
