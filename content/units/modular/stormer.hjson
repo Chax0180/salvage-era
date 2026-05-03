@@ -15,7 +15,7 @@ mechLegColor: 2f2d39
 
   weapons: [
     {
-        x: -1
+        x: -0.4
         y: 2.15
         name: volley-gun
         reload: 20
