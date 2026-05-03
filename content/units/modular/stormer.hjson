@@ -29,7 +29,7 @@ mechLegColor: 2f2d39
         shots: 6
         }
         inaccuracy: 7.5
-        shootSound: shootSalvo
+        shootSound: shootVolley
   bullet: {
           type: BasicBulletType
             speed: 10
