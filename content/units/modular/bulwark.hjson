@@ -45,6 +45,9 @@ loopSoundVolume: 0.03
       statusDuration: 240
       trailLength: 10
       trailWidth: 1
+            hitSound: stepWater
+            soundPitchMin: 0.4
+            soundPitchMax: 0.6
         }
   parts: [
     {
