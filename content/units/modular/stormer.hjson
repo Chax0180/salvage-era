@@ -18,7 +18,7 @@ mechLegColor: 2f2d39
         x: -3
         y: 2.15
         name: volley-gun
-        reload: 30
+        reload: 20
         recoil: 0.1
         mirror: false
         top: false
