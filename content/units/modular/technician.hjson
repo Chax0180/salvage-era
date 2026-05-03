@@ -64,7 +64,6 @@ loopSoundVolume: 0.03
     colorFrom: ffffff
     colorTo: 84f491
     }
-      ]
       type: BasicBulletType
       sprite: large-orb
       speed: 5
