@@ -3,9 +3,9 @@ name: Bulwark
 description: A heavily armored walker equipped with a shield projector and a thermite shotgun that melts enemy targets.
 speed: 0.25
 flying: false
-health: 3480
+health: 1150
 rotateSpeed: 1.85
-armor: 12
+armor: 6
 hitSize: 11
 loopSound: loopMachine2
 loopSoundVolume: 0.03
