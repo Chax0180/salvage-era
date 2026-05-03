@@ -21,7 +21,6 @@ outlineColor: 2f2d39
         mirror: false
         under: true
         inaccuracy: 7.5
-        rotate: true
         rotationLimit: 30
     shootSound: shootThermite
     soundPitchMin: 1
