@@ -20,6 +20,7 @@ mechLegColor: 2f2d39
         recoil: 0.1
         mirror: false
         top: false
+        targetGround: false
         shoot:{
         type: shootAlternate
         barrels: 6
@@ -27,7 +28,7 @@ mechLegColor: 2f2d39
         shotDelay: 5
         shots: 6
         }
-        inaccuracy: 3
+        inaccuracy: 7.5
         shootSound: shootSalvo
   bullet: {
           type: BasicBulletType
