@@ -53,7 +53,7 @@ loopSoundVolume: 0.03
     bullet: {
       shootEffect: healWave
       hitEffect: [
-      hitBulletColor
+      SquareWaveEffect
     type: ParticleEffect
     particles: 20
     lifetime: 60
