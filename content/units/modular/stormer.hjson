@@ -11,6 +11,7 @@ loopSound: loopMachine2
 loopSoundVolume: 0.03
 outlineColor: 2f2d39
 mechLegColor: 2f2d39
+        targetGround: false
 
   weapons: [
     {
@@ -20,7 +21,6 @@ mechLegColor: 2f2d39
         recoil: 0.1
         mirror: false
         top: false
-        targetGround: false
         shoot:{
         type: shootAlternate
         barrels: 6
