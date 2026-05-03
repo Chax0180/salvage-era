@@ -3,8 +3,8 @@ name: Technician
 description: An armored walker equipped with a light laser cannon and an volatile energy launcher.
 speed: 0.35
 flying: false
-health: 1250
-armor: 10
+health: 2900
+armor: 9
 hitSize: 11
 loopSound: loopMachine2
 loopSoundVolume: 0.03
