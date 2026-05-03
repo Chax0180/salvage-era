@@ -114,9 +114,12 @@ loopSoundVolume: 0.03
       lifetime: 60
       width: 13
       height: 13
-      damage: 450
+      damage: 300
       frontColor: 62ae7f
       backColor: 84f491
+      splashDamage: 150
+      splashDamageRadius: 21
+      hitSound: shootBeamPlasma
   }
 }
 ]
