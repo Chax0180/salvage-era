@@ -62,7 +62,7 @@ loopSoundVolume: 0.03
     colorTo: 84f491
     interp: circleOut
     }
-      hitEffect:
+      hitEffect: [
     {
     type: ParticleEffect
     particles: 20
@@ -74,20 +74,19 @@ loopSoundVolume: 0.03
     colorFrom: ffffff
     colorTo: 84f491
     }
-      despawnEffect:
     {
-    type: ParticleEffect
-    particles: 20
-    lifetime: 60
-    sizeFrom: 6
-    sizeTo: 0
-    cone: 180
-    length: 21
+    type: waveEffect
+    lifetime: 120
+    sizeFrom: 0
+    sizeTo: 25
+    sides: 8
     colorFrom: ffffff
-    colorTo: 84f491
-    sizeInterp: circle
+    colorTo: 62ae7f
     interp: circleOut
     }
+]
+      despawnEffect:
+
       type: BasicBulletType
       sprite: large-orb
       speed: 5
