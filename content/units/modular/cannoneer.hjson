@@ -39,6 +39,5 @@ outlineColor: 2f2d39
             hitEffect: blastExplosion
       hitSound: explosion
         }
-  ]
     }
 ]
