@@ -51,9 +51,9 @@ loopSoundVolume: 0.03
         shootSound: explosionAfflict
         chargeSound: chargeVela
     bullet: {
-      shootEffect: hitSquaresColor
-      hitEffect: greenBomb
-      despawnEffect: greenBomb
+      shootEffect: shootBigColor
+      hitEffect: greenCloud
+      despawnEffect: greenCloud
       type: BasicBulletType
       sprite: large-orb
       speed: 5
