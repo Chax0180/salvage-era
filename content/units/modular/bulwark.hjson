@@ -65,12 +65,22 @@ outlineColor: 2f2d39
 abilities: [
   {
     type: ShieldArcAbility
-    max: 650
+    max: 300
     cooldown: 300
     regen: 0.3
-    angle: 20
+    angle: 90
     whenShooting: false
-    width: 18
-    radius: 45
+    width: 7
+    radius: 15
+  }
+  {
+    type: ShieldArcAbility
+    max: 450
+    cooldown: 240
+    regen: 0.4
+    angle: 135
+    whenShooting: false
+    width: 9
+    radius: 21
   }
 ]
