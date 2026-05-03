@@ -17,17 +17,14 @@ loopSoundVolume: 0.03
         recoil: 0.2
         mirror: true
         alternate: true
-        shoot:[
-        firstShotDelay: 40
-        ]
         inaccuracy: 1
         rotate: true
         rotationLimit: 30
         shootSound: shootLancer
         chargeSound: chargeLancer
   bullet: {
-          type: LaserBulletType
-            lifetime: 30
+        type: LaserBulletType
+        lifetime: 30
             
         colors:[
         62ae7f
@@ -35,16 +32,5 @@ loopSoundVolume: 0.03
         ffffff
         ]
         }
-  parts: [
-    {
-      type: RegionPart
-      y: 4.3
-      suffix: -barrel
-      mirror: false
-      under: true
-      progress: recoil
-      moveY: -1.5
-    }
-  ]
     }
 ]
