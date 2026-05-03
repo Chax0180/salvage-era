@@ -13,7 +13,7 @@ loopSoundVolume: 0.03
       x: 10
         y: -2
         name: thermite-mount
-        reload: 20.58
+        reload: 40
         recoil: 0.2
         mirror: false
         inaccuracy: 7.5
