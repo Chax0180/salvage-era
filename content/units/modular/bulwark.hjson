@@ -40,7 +40,7 @@ outlineColor: 2f2d39
             velocityScaleRandMax: 1.2
             drag: 0.08
             lifetime: 45
-            damage: 15
+            damage: 40
             trailChance: 1
             width: 7
             height: 9
