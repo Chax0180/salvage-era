@@ -14,10 +14,9 @@ mechLegColor: 2f2d39
 
   weapons: [
     {
-        x: 8.7
         y: 2
         name: volley-gun
-        reload: 35
+        reload: 30
         recoil: 0.1
         mirror: false
         top: false
@@ -28,18 +27,23 @@ mechLegColor: 2f2d39
         shotDelay: 5
         shots: 6
         }
-        inaccuracy: 1
+        inaccuracy: 3
         shootSound: shootSalvo
   bullet: {
-        type: LaserBulletType
-        lifetime: 30
-        width: 7
-        damage: 60
-        colors:[
-        62ae7f
-        84f491
-        ffffff
-        ]
+          type: BasicBulletType
+            speed: 10
+            lifetime: 35
+            damage: 10
+collidesGround: false
+homingDelay: 15
+homingRange: 60
+homingPower: 0.12
+      trailChance: -1
+      trailLength: 10
+      trailWidth: 1
+      width: 7
+      height: 9
+            trailChance: -1
         }
     }
 ]
