@@ -54,7 +54,7 @@ loopSoundVolume: 0.03
       shootEffect:
     {
     type: waveEffect
-    lifetime: 20
+    lifetime: 40
     sizeFrom: 0
     sizeTo: 15
     sides: 4
@@ -76,10 +76,10 @@ loopSoundVolume: 0.03
     }
     {
     type: waveEffect
-    lifetime: 120
+    lifetime: 60
     sizeFrom: 0
     sizeTo: 25
-    sides: 8
+    sides: 4
     colorFrom: ffffff
     colorTo: 62ae7f
     interp: circleOut
@@ -99,7 +99,7 @@ loopSoundVolume: 0.03
     }
     {
     type: waveEffect
-    lifetime: 120
+    lifetime: 60
     sizeFrom: 0
     sizeTo: 25
     sides: 4
