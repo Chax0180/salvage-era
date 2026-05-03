@@ -27,7 +27,7 @@ loopSoundVolume: 0.03
   bullet: {
         type: LaserBulletType
         lifetime: 30
-            
+        width: 9
         colors:[
         62ae7f
         84f491
