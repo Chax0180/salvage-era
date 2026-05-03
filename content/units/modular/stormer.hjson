@@ -1,0 +1,44 @@
+type: mech
+name: Stormer
+description: A lightly armored walker equipped with a rapid fire anti-air volley gun.
+speed: 0.375
+flying: false
+health: 900
+rotateSpeed: 2.3
+armor: 4
+hitSize: 11
+loopSound: loopMachine2
+loopSoundVolume: 0.03
+outlineColor: 2f2d39
+mechLegColor: 2f2d39
+
+  weapons: [
+    {
+        x: 8.7
+        y: 2
+        name: volley-gun
+        reload: 35
+        recoil: 0.1
+        mirror: false
+        top: false
+        shoot:{
+        barrels: 6
+        spread: 3
+        shotDelay: 5
+        shots: 6
+        }
+        inaccuracy: 1
+        shootSound: shootSalvo
+  bullet: {
+        type: LaserBulletType
+        lifetime: 30
+        width: 7
+        damage: 60
+        colors:[
+        62ae7f
+        84f491
+        ffffff
+        ]
+        }
+    }
+]
