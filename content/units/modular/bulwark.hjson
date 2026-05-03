@@ -35,8 +35,8 @@ loopSoundVolume: 0.03
             lifeScaleRandMax: 1.1
             velocityScaleRandMin: 0.8
             velocityScaleRandMax: 1.2
-            drag: 0.06
-            lifetime: 30
+            drag: 0.08
+            lifetime: 45
             damage: 15
             trailChance: 1
             width: 7
