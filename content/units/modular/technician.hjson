@@ -24,7 +24,6 @@ outlineColor: 2f2d39
         firstShotDelay: 40
         }
         inaccuracy: 1
-        rotate: true
         rotationLimit: 30
         shootSound: shootLancer
         chargeSound: chargeLancer
@@ -52,7 +51,6 @@ outlineColor: 2f2d39
         firstShotDelay: 60
         }
         inaccuracy: 1
-        rotate: true
         rotationLimit: 30
         shootSound: explosionAfflict
         chargeSound: chargeVela
