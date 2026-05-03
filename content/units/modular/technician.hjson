@@ -17,15 +17,15 @@ loopSoundVolume: 0.03
         recoil: 0.2
         mirror: true
         alternate: true
+        shoot:[
+        firstShotDelay: 40
+        ]
         inaccuracy: 1
         rotate: true
         rotationLimit: 30
         shootSound: shootLancer
         chargeSound: chargeLancer
-        shoot:[
-        firstShotDelay: 40
-        ]
-        bullet: {
+  bullet: {
           type: LaserBulletType
             lifetime: 30
             
