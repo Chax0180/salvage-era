@@ -25,15 +25,15 @@ loopSoundVolume: 0.03
           type: BasicBulletType
             speed: 10
             lifetime: 30
-            damage: 50
+            damage: 30
       pierceArmor: true
       trailChance: -1
       trailLength: 10
       trailWidth: 1
       width: 7
       height: 9
-            splashDamageRadius: 20
-            splashDamage: 30
+            splashDamageRadius: 10
+            splashDamage: 24
             trailChance: -1
             hitEffect: flakExplosion
       hitSound: shootCyclone
