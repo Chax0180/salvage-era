@@ -1,0 +1,51 @@
+type: mech
+name: Cannoneer
+description: A heavily armored walker equipped with a single, large cannon that fires armor-piercing shells.
+speed: 0.25
+flying: false
+health: 3250
+armor: 11
+hitSize: 11
+loopSound: loopMachine2
+loopSoundVolume: 0.03
+  weapons: [
+    {    
+      x: 0
+        y: -2
+        name: anti-tank-mount
+        reload: 600
+        recoil: 4
+        mirror: false
+        inaccuracy: 0
+        rotate: true
+        rotationLimit: 30
+        shootSound: shootTank
+        bullet: {
+          type: BasicBulletType
+            speed: 10
+            lifetime: 90
+            damage: 630
+      pierceArmor: true
+      trailChance: -1
+      trailLength: 10
+      trailWidth: 1
+      width: 9
+      height: 11
+            splashDamageRadius: 5
+            splashDamage: 120
+            hitEffect: blastExplosion
+      hitSound: explosion
+        }
+  parts: [
+    {
+      type: RegionPart
+      y: 4.3
+      suffix: -barrel
+      mirror: false
+      under: true
+      progress: recoil
+      moveY: -3
+    }
+  ]
+    }
+]
