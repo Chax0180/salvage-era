@@ -29,7 +29,7 @@ loopSoundVolume: 0.03
           type: LiquidBulletType
           liquid: slag
           orbSize: 4
-          puddleSize: 1
+          puddleSize: 12
             speed: 10
             lifeScaleRandMin: 0.8
             lifeScaleRandMax: 1.1
