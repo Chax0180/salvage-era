@@ -13,8 +13,8 @@ outlineColor: 2f2d39
 
   weapons: [
     {    
-      x: 8
-      y: 1
+      x: 9.25
+      y: 2
         name: autocannon-mount
         reload: 20.58
         recoil: 0.2
@@ -22,7 +22,7 @@ outlineColor: 2f2d39
         alternate: true
         top: false
         inaccuracy: 1
-        rotate: true
+        under: true
         rotationLimit: 30
         shootSound: shootSalvo
         bullet: {
