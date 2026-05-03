@@ -4,6 +4,7 @@ description: An armored walker equipped with two autocannons which fire explosiv
 speed: 0.35
 flying: false
 health: 2850
+rotatespeed: 0.4
 armor: 10
 hitSize: 11
 loopSound: loopMachine2
