@@ -51,7 +51,16 @@ loopSoundVolume: 0.03
         shootSound: explosionAfflict
         chargeSound: chargeVela
     bullet: {
-      shootEffect: healWave
+      shootEffect:
+    {
+    type: waveEffect
+    lifetime: 20
+    sizeFrom: 0
+    sizeTo: 60
+    colorFrom: ffffff
+    colorTo: 84f491
+    interp: circleOut
+    }
       hitEffect:
     {
     type: ParticleEffect
