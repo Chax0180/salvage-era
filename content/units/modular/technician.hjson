@@ -102,7 +102,7 @@ loopSoundVolume: 0.03
     lifetime: 120
     sizeFrom: 0
     sizeTo: 25
-    sides: 8
+    sides: 4
     colorFrom: ffffff
     colorTo: 62ae7f
     interp: circleOut
