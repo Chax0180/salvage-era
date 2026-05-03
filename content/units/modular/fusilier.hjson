@@ -20,6 +20,7 @@ outlineColor: 2f2d39
         recoil: 0.2
         mirror: true
         alternate: true
+        top: false
         inaccuracy: 1
         rotate: true
         rotationLimit: 30
