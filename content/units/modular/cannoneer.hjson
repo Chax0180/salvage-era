@@ -3,9 +3,9 @@ name: Cannoneer
 description: A heavily armored walker equipped with a single, large cannon that fires armor-piercing shells.
 speed: 0.2
 flying: false
-health: 3250
+health: 1000
 rotateSpeed: 1.75
-armor: 11
+armor: 5
 hitSize: 11
 loopSound: loopMachine2
 loopSoundVolume: 0.03
