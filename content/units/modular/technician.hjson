@@ -1,6 +1,6 @@
 type: mech
 name: Technician
-description: An armored walker equipped with a light laser cannon and an energy launcher.
+description: An armored walker equipped with a light laser cannon and an volatile energy launcher.
 speed: 0.35
 flying: false
 health: 1250
@@ -9,7 +9,7 @@ hitSize: 11
 loopSound: loopMachine2
 loopSoundVolume: 0.03
   weapons: [
-    {    
+    {
         x: 10
         y: -2
         name: laser-mount
@@ -35,4 +35,29 @@ loopSoundVolume: 0.03
         ]
         }
     }
+    {
+        x: -10
+        y: -2
+        name: quasar-mount
+        reload: 600
+        recoil: 2
+        mirror: false
+        shoot:{
+        firstShotDelay: 60
+        }
+        inaccuracy: 1
+        rotate: true
+        rotationLimit: 30
+        shootSound: explosionAfflict
+        chargeSound: chargeVela
+    bullet: {
+      type: BasicBulletType
+      sprite: large-orb
+      speed: 10
+      lifetime: 16
+      width: 5
+      height: 5
+      damage: 450
+  }
+}
 ]
