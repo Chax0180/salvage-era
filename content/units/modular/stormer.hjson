@@ -34,7 +34,8 @@ mechLegColor: 2f2d39
           type: BasicBulletType
             speed: 10
             lifetime: 35
-            damage: 25
+            damage: 18
+            armorMultiplier: 1.2
 collidesGround: false
 homingDelay: 15
 homingRange: 60
