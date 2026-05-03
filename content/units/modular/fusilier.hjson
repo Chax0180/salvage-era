@@ -1,5 +1,5 @@
 type: mech
-name: "Fusilier"
+name: Fusilier
 description: An armored walker equipped with two autocannons which fire explosive rounds at enemy targets.
 speed: 0.35
 flying: false
