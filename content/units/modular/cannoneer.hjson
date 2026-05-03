@@ -1,7 +1,7 @@
 type: mech
 name: Cannoneer
 description: A heavily armored walker equipped with a single, large cannon that fires armor-piercing shells.
-speed: 0.25
+speed: 0.8
 flying: false
 health: 3250
 rotateSpeed: 0.075
