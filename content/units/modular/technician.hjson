@@ -10,13 +10,15 @@ loopSound: loopMachine2
 loopSoundVolume: 0.03
   weapons: [
     {    
-      x: 10
+        x: 10
         y: -2
         name: laser-mount
         reload: 120
         recoil: 0.2
-        mirror: true
-        alternate: true
+        mirror: false
+        shoot:{
+        firstShotDelay: 40
+        }
         inaccuracy: 1
         rotate: true
         rotationLimit: 30
