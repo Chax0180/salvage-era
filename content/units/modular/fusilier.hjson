@@ -8,6 +8,8 @@ armor: 10
 hitSize: 11
 loopSound: loopMachine2
 loopSoundVolume: 0.03
+outlineColor: 2f2d39
+
   weapons: [
     {    
       x: 10
