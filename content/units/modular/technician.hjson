@@ -53,11 +53,13 @@ loopSoundVolume: 0.03
     bullet: {
       type: BasicBulletType
       sprite: large-orb
-      speed: 10
-      lifetime: 16
-      width: 5
-      height: 5
+      speed: 5
+      lifetime: 30
+      width: 11
+      height: 11
       damage: 450
+      frontColor: 62ae7f
+      backColor: 84f491
   }
 }
 ]
