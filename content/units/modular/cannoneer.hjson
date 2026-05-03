@@ -21,7 +21,7 @@ outlineColor: 2f2d39
         mirror: false
         inaccuracy: 0
         rotate: true
-        rotationLimit: 30
+        rotationLimit: 60
         shootSound: shootTank
         bullet: {
           type: BasicBulletType
