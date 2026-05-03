@@ -20,7 +20,7 @@ mechLegColor: 2f2d39
         reload: 40
         recoil: 0.2
         mirror: false
-        under: true
+        top: false
         inaccuracy: 7.5
         rotationLimit: 30
     shootSound: shootThermite
