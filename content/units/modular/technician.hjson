@@ -53,7 +53,8 @@ loopSoundVolume: 0.03
     bullet: {
       shootEffect: healWave
       hitEffect: [
-      hitSquaresColr
+      hitSquaresColor
+    {
     type: ParticleEffect
     particles: 20
     lifetime: 60
@@ -63,6 +64,7 @@ loopSoundVolume: 0.03
     length: 70
     colorFrom: ffffff
     colorTo: 84f491
+    }
       ]
       type: BasicBulletType
       sprite: large-orb
