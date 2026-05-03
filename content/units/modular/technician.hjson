@@ -28,6 +28,7 @@ loopSoundVolume: 0.03
         type: LaserBulletType
         lifetime: 30
         width: 7
+        damage: 60
         colors:[
         62ae7f
         84f491
