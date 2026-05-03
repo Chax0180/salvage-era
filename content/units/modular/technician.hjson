@@ -56,9 +56,8 @@ loopSoundVolume: 0.03
     type: waveEffect
     lifetime: 20
     sizeFrom: 0
-    sizeTo: 20
+    sizeTo: 15
     sides: 4
-    rotation: 45
     colorFrom: ffffff
     colorTo: 84f491
     interp: circleOut
