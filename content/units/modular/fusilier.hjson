@@ -3,9 +3,9 @@ name: Fusilier
 description: An armored walker equipped with two autocannons which fire explosive rounds at enemy targets.
 speed: 0.35
 flying: false
-health: 2850
+health: 980
 rotatespeed: 2.1
-armor: 10
+armor: 5
 hitSize: 11
 loopSound: loopMachine2
 loopSoundVolume: 0.03
