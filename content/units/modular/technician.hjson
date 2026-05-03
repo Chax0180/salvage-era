@@ -12,31 +12,28 @@ loopSoundVolume: 0.03
     {    
       x: 10
         y: -2
-        name: autocannon-mount
-        reload: 20.58
+        name: laser-mount
+        reload: 120
         recoil: 0.2
         mirror: true
         alternate: true
         inaccuracy: 1
         rotate: true
         rotationLimit: 30
-        shootSound: shootSalvo
+        shootSound: shootLancer
+        chargeSound: chargeLancer
+        shoot:[
+        firstShotDelay: 40
+        ]
         bullet: {
-          type: BasicBulletType
-            speed: 10
+          type: LaserBulletType
             lifetime: 30
-            damage: 50
-      pierceArmor: true
-      trailChance: -1
-      trailLength: 10
-      trailWidth: 1
-      width: 7
-      height: 9
-            splashDamageRadius: 20
-            splashDamage: 30
-            trailChance: -1
-            hitEffect: flakExplosion
-      hitSound: shootCyclone
+            
+        colors:[
+        62ae7f
+        84f491
+        ffffff
+        ]
         }
   parts: [
     {
