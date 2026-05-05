@@ -1,0 +1,12 @@
+type: mech
+name: Walker Chassis
+description: A frame for modular walking units.
+speed: 0.5
+flying: false
+health: 600
+rotateSpeed: 2
+hitSize: 11
+loopSound: loopMachine2
+loopSoundVolume: 0.03
+outlineColor: 2f2d39
+mechLegColor: 2f2d39
