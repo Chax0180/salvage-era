@@ -1,0 +1,51 @@
+type: ItemTurret
+name: Guage
+description: Fires blasts of high velocity, short-ranged bullets in a focused spread at enemy targets.
+size: 3
+category: turret
+research: core-salvage
+  
+researchCostMultiplier: 0.1
+shootSound: shootGuage
+shootSoundVolume: 0.7
+requirements: [
+  silver/80
+  silicon/40
+  armor-alloy/120
+]
+coolant: {
+  type: ConsumeCoolant
+  allowGas: false
+  allowLiquid: true
+  amount: 0.1666666666666666666666666666
+}
+outlineColor: 2f2d39
+targetAir: true
+targetGround: true
+reload: 60
+range: 220
+velocityRnd: 0.12
+inaccuracy: 5
+shoot: {
+  shots: 10
+}
+ammoTypes: {
+  armor-alloy: {
+    type: BasicBulletType
+            speed: 10
+            lifeScaleRandMin: 0.8
+            lifeScaleRandMax: 1.1
+            velocityScaleRandMin: 0.8
+            velocityScaleRandMax: 1.2
+            drag: 0.08
+            lifetime: 45
+            damage: 40
+            trailChance: 1
+            width: 7
+            height: 9
+  }
+drawer: {
+  type: DrawTurret
+//basePrefix
+}
+rotate: false
