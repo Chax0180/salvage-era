@@ -25,7 +25,7 @@ targetGround: true
 reload: 60
 range: 220
 velocityRnd: 0.12
-inaccuracy: 5
+inaccuracy: 10
 shoot: {
   shots: 10
 }
