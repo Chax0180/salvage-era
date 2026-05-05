@@ -37,7 +37,7 @@ ammoTypes: {
             lifeScaleRandMax: 1.1
             velocityScaleRandMin: 0.8
             velocityScaleRandMax: 1.2
-            drag: 0.06
+            drag: 0.04
             lifetime: 45
             damage: 40
             trailChance: 1
