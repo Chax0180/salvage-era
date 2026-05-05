@@ -44,8 +44,8 @@ ammoTypes: {
             width: 7
             height: 9
   }
+}
 drawer: {
   type: DrawTurret
-//basePrefix
 }
 rotate: false
