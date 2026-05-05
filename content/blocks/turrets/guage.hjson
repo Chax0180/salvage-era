@@ -32,13 +32,12 @@ shoot: {
 ammoTypes: {
   armor-alloy: {
     type: BasicBulletType
-            speed: 10
+            speed: 20
             lifeScaleRandMin: 0.8
             lifeScaleRandMax: 1.1
             velocityScaleRandMin: 0.8
             velocityScaleRandMax: 1.2
-            drag: 0.04
-            lifetime: 45
+            lifetime: 20
             damage: 40
             trailChance: 1
             width: 7
